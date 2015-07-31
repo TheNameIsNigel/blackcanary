@@ -1,3 +1,4 @@
-var hangups = require('./lib/hangups')
+var Hangups = require('./lib/hangups')
 
+hangups = new Hangups()
 hangups.connect()
