@@ -1,4 +1,3 @@
-var Hangups = require('./lib/hangups')
+var H = require('./lib/utils').H
 
-hangups = new Hangups()
-hangups.connect()
+H.connect()
