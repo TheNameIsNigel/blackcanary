@@ -1,12 +1,15 @@
 {
   "name": "blackcanary",
   "version": "0.0.1",
-  "description": "Hangouts bot for Canary <umm something> LLC ?",
+  "description": "Hangouts bot for Canary Solutions LLC.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www-bot"
   },
-  "author": "IngCr3at1on",
+  "author": [
+      "IngCreat1on <sblood86@gmail.com>",
+      "drewwalton19216801 <drewwalton19216801@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.13.2",

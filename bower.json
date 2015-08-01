@@ -2,9 +2,10 @@
   "name": "blackcanary",
   "version": "0.0.1",
   "authors": [
-    "drewwalton19216801 <drewwalton19216801@gmail.com>"
+    "drewwalton19216801 <drewwalton19216801@gmail.com>",
+    "IngCreat1on <sblood86@gmail.com>"
   ],
-  "description": "Hangouts bot for Canary <umm something> LLC ?",
+  "description": "Hangouts bot for Canary Solutions LLC.",
   "moduleType": [
     "node"
   ],
