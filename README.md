@@ -1,8 +1,8 @@
 Install with npm and bower:
 
 $ npm install
-
-$ npm install -g bower (may need to use sudo)
-
 $ bower install
 
+If bower is not found use:
+
+$ node_modules/bower/bin/bower install
