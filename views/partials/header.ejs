@@ -11,8 +11,19 @@
         </div>
 
         <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/admin">Admin</a></li>
+            <% if (menuLocation === "index") { %>
+            <li class="active">
+                <% } else { %>
+            <li>
+                <% } %>
+                <a href="/">Home</a></li>
+
+            <% if (menuLocation === "admin") { %>
+            <li class="active">
+                <% } else { %>
+            <li>
+                <% } %>
+                <a href="/admin">Admin</a></li>
         </ul>
 
     </div>
