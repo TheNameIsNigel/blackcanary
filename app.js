@@ -1,5 +1,3 @@
-var utils = require('./lib/utils');
-
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
