@@ -9,6 +9,8 @@
   "author": "IngCr3at1on",
   "license": "MIT",
   "dependencies": {
-    "hangupsjs": "^1.0.1"
+    "express": "^4.13.2",
+    "hangupsjs": "^1.0.1",
+    "jade": "^1.11.0"
   }
 }
