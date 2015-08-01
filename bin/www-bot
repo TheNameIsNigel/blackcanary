@@ -89,4 +89,10 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+
+  var host = server.address().address;
+  var port = server.address().port;
+  if (host === '::')
+    host = 'localhost';
+  console.log('Web Portal may be accessed at http://%s:%s', host, port);
 }
