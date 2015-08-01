@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.3"
+    "angular": "~1.4.3",
+    "underscore": "~1.8.3"
   }
 }
