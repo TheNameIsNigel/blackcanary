@@ -1,0 +1,19 @@
+{
+  "name": "blackcanary",
+  "version": "0.0.1",
+  "authors": [
+    "drewwalton19216801 <drewwalton19216801@gmail.com>"
+  ],
+  "description": "Hangouts bot for Canary <umm something> LLC ?",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
