@@ -1,11 +1,9 @@
 extends layout
 include mixins
-
 block menu
     +nav("HangupsWeb", "dropdown_menu", "inverse", "navbar-fixed-top sticky")
-        +nav_item("/", "active") Home
-        +nav_item("/admin") Admin
-
+        +nav_item("/") Home
+        +nav_item("/admin", "active") Admin
 block content
     .row
     h1= title
