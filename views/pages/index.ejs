@@ -1,11 +1,11 @@
 <!-- views/pages/index.ejs -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="blackcanaryApp">
 <head>
     <% include ../partials/head %>
 </head>
-<body class="container">
+<body class="container" ng-controller="PhoneListCtrl">
 
 <header>
     <% var menuLocation = "index"; %>
@@ -17,6 +17,13 @@
         <h1>BlackCanary</h1>
         <p>Welcome to BlackCanary</p>
     </div>
+
+    <ul>
+        <li ng-repeat="phone in phones">
+            <span>{{phone.name}}</span>
+            <p>{{phone.snippet}}</p>
+        </li>
+    </ul>
 </main>
 
 <footer>
