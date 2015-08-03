@@ -4,11 +4,11 @@
   "description": "Hangouts bot for Canary Solutions LLC.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www-bot"
+    "start": "./node_modules/nodemon/bin/nodemon.js ./bin/www-bot"
   },
   "author": [
-      "IngCreat1on <sblood86@gmail.com>",
-      "drewwalton19216801 <drewwalton19216801@gmail.com>"
+    "IngCreat1on <sblood86@gmail.com>",
+    "drewwalton19216801 <drewwalton19216801@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
@@ -20,6 +20,7 @@
     "hangupsjs": "^1.0.1",
     "ejs": "^1.0.0",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "nodemon": "~1.4.0"
   }
 }

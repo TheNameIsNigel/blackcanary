@@ -85,15 +85,12 @@ function onError(error) {
  */
 
 function onListening() {
-  var addr = server.address();
+  var addr = '127.0.0.1';
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 
-  var host = server.address().address;
   var port = server.address().port;
-  if (host === '::')
-    host = 'localhost';
-  console.log('Web Portal may be accessed at http://%s:%s', host, port);
+  console.log('Web Portal may be accessed at http://127.0.0.1:%s', port);
 }
