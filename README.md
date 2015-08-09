@@ -9,6 +9,6 @@ If bower is not found use:
 
 The following configuration settings can be altered in config.json
 
-    verbose (add to config as 1 log entire event objects)
+    verbose (add to config as 1 to log entire event objects)
     command_flag (add to config to change default command flag from '!' to something else)
     admins (store an array of user IDs with administrator control)
